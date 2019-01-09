@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'RWNotificationView'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = 'A Simple Notification View'
 
 s.description      = <<-DESC
