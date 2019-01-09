@@ -13,7 +13,7 @@ open class RWNotificationView: UIViewController {
     var titleTopConstraint, titleLeftConstraint, titleRightConstraint, titleHeightConstraint: NSLayoutConstraint!
     
     var notificationTitle, notificationSubtitle: String?
-    var onClickNotification:(()->Void)?
+    open var onClickNotification:(()->Void)?
     
     
     lazy var notificationView: UIView = { [unowned self] in
