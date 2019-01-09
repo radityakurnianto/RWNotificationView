@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RWNotificationView_Example' do
+  pod 'RWNotificationView', :path => '../'
+
+  target 'RWNotificationView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
