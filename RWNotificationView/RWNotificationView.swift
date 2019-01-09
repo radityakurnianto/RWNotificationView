@@ -47,17 +47,17 @@ open class RWNotificationView: UIViewController {
         return label
         }()
     
-    convenience init() {
+    public convenience init() {
         self.init(title: "", subtitle: nil)
     }
     
-    init(title: String, subtitle: String?) {
+    public init(title: String, subtitle: String?) {
         self.notificationTitle = title
         self.notificationSubtitle = subtitle
         super.init(nibName: nil, bundle: nil)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
