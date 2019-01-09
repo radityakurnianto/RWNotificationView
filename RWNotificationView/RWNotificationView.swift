@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RWNotificationView: UIViewController {
+public class RWNotificationView: UIViewController {
     var notifTopConstraint, notifLeftConstraint, notifRightConstraint, notifHeightConstraint, notifBottomConstraint: NSLayoutConstraint!
     var titleTopConstraint, titleLeftConstraint, titleRightConstraint, titleHeightConstraint: NSLayoutConstraint!
     
@@ -61,7 +61,7 @@ class RWNotificationView: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .clear
         setContent()
