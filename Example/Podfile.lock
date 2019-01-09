@@ -1,0 +1,16 @@
+PODS:
+  - RWNotificationView (0.1.0)
+
+DEPENDENCIES:
+  - RWNotificationView (from `../`)
+
+EXTERNAL SOURCES:
+  RWNotificationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RWNotificationView: 2391ed2a9794d8c026a84c57de88bdd9430337e3
+
+PODFILE CHECKSUM: e0423455eb67117d78bcd95d9743955ed8aafae5
+
+COCOAPODS: 1.5.3

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RWNotificationView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RWNotificationView.'
+  s.version          = '1.0.3'
+  s.summary          = 'A Simple Notification View'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+RWNotificationView is a library that help you show any kind of notification within your apps.
                        DESC
 
   s.homepage         = 'https://github.com/radityakurnianto/RWNotificationView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'radityakurnianto' => 'raditya@detik.com' }
+  s.author           = { 'radityakurnianto' => 'raditya.kurnianto@gmail.com' }
   s.source           = { :git => 'https://github.com/radityakurnianto/RWNotificationView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'RWNotificationView/Classes/**/*'
   
