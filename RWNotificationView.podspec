@@ -30,7 +30,7 @@ RWNotificationView is a library that help you show any kind of notification with
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RWNotificationView/Classes/**/*'
+  s.source_files = 'RWNotificationView/Classes  /*'
   
   # s.resource_bundles = {
   #   'RWNotificationView' => ['RWNotificationView/Assets/*.png']
